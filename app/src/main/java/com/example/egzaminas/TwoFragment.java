@@ -33,11 +33,11 @@ public class TwoFragment extends Fragment {
                 double number = Double.parseDouble(data);
                 GraphView graph = (GraphView) v.findViewById(R.id.functionGraph);
                 LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
-                        new DataPoint(0, number),
-                        new DataPoint(1, number+1/1),
-                        new DataPoint(2, number+1/2),
-                        new DataPoint(3, number+1/3),
-                        new DataPoint(4, number+1/4)
+                        new DataPoint(0, 1/0+number),
+                        new DataPoint(1, 1/1+number),
+                        new DataPoint(2, 1/2+number),
+                        new DataPoint(3, 1/3+number),
+                        new DataPoint(4, 1/4+number)
                 });
                 graph.addSeries(series);
             }catch (NumberFormatException e){
