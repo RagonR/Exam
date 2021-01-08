@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/item1"
+        android:title="meniu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:checkable="false"
+                android:title="Hiperbolinės funkcijos"/>
+            <item
+                android:id="@+id/subitem2"
+                android:checkable="false"
+                android:title="Teisės funkcijos"/>
+            <item
+                android:id="@+id/subitem3"
+                android:checkable="false"
+                android:title="Polinomai" />
+            <item
+                android:id="@+id/subitem4"
+                android:checkable="false"
+                android:title="Trigonometrinės funkcijos"/>
+            <item
+                android:id="@+id/subitem5"
+                android:checkable="false"
+                android:title="Laipsninė funkcija"/>
+            <item
+                android:id="@+id/subitem6"
+                android:checkable="false"
+                android:title="Logaritminės funkcijos"/>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:checkable="false"
+        android:title="Kaip naudotis programa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item3"
+        android:checkable="false"
+        android:title="Apie programą"
+        app:showAsAction="never" />
+
+</menu>

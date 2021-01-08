@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F(x) = 1/x + c"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter C to generate graph" />
+
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:hint="C ="
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/BTN"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
